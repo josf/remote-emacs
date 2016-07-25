@@ -25,5 +25,6 @@
 (depends-on "org")
 (depends-on "pallet")
 (depends-on "paredit")
+(depends-on "use-package")
 (depends-on "swiper")
 (depends-on "yaml-mode")
