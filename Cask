@@ -18,7 +18,6 @@
 (depends-on "dash")
 (depends-on "ivy")
 (depends-on "magit")
-(depends-on "magit-popup")
 (depends-on "markdown-mode")
 (depends-on "markup-faces")
 (depends-on "multiple-cursors")
