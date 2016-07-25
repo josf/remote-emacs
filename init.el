@@ -48,6 +48,7 @@
     (global-set-key (kbd "C-c v") 'ivy-push-view)
     (global-set-key (kbd "C-c V") 'ivy-pop-view)))
 
+
 (use-package avy
   :config
   (progn
@@ -56,6 +57,10 @@
 
 (setq tab-width 4)
 (setq-default abbrev-mode t)
+
+(use-package js3-mode
+  :init (progn
+	  (add-hook 'js3-mode-hook 'ac-js2-mode)))
 
 (define-key global-map (kbd "<f5>") 'revert-buffer)
 
