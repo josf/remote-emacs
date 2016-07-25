@@ -7,6 +7,7 @@
 (depends-on "ace-window")
 (depends-on "anzu")
 (depends-on "apache-mode")
+(depends-on "auto-complete")
 (depends-on "avy")
 (depends-on "avy-zap")
 (depends-on "cask")
