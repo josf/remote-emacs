@@ -36,7 +36,7 @@
   :mode (("nginx\\.conf$" . nginx-mode)))
 
 (use-package anzu)
-(global-anzu-mode)
+;(global-anzu-mode)
 (global-set-key (kbd "M-%") 'anzu-query-replace)
 (global-set-key (kbd "C-M-%")  'anzu-query-replace-regexp)
 
