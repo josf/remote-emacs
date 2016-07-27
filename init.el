@@ -79,3 +79,5 @@
 (add-hook 'clojure-mode-hook 'show-paren-mode)
 
 (global-set-key [(control c) (\:)] 'uncomment-region)
+
+(load-theme 'solarized-dark t) 
