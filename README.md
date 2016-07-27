@@ -24,17 +24,19 @@ Note that for this to work, `~/.emacs.d` must be empty or not exist.
 
 ## Cask
 
-- Create `~/.cask` directory
-- Clone the Cask repo into `~/.cask`
+Create `~/.cask` directory
+
+Clone the Cask repo into `~/.cask`
 
     ~$ git clone  https://github.com/cask/cask.git .cask
 
-- Add .cask/bin to $PATH in .bash_profile
+Add .cask/bin to $PATH in .bash_profile
 
     export PATH="$HOME/.cask/bin:$PATH" 
 
-- Bootstrap: `cask upgrade-cask`
-- Run `cask`: 
+Bootstrap: `cask upgrade-cask`
+
+Run `cask`: 
 
     cd ~/.emacs.d 
 	cask
