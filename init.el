@@ -23,8 +23,7 @@
 
 (use-package magit
   :bind ("C-c m" . magit-status))
-(use-package auto-complete
-  :init (global-auto-complete-mode))
+(use-package auto-complete)
 (use-package yaml-mode
   :mode (("\\.yml$" . yaml-mode)))
 (use-package projectile)
