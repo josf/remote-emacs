@@ -10,7 +10,7 @@ This setup requires Cask, which makes the initial setup a little more involved. 
 
 ## Dependencies
 
-`magit` requires Emacs version 24.4 or later.
+`magit` and `clj-refactor` require Emacs version 24.4 or later. These are now commented out of the `Cask` file. If you have 24.4 or later, you can uncomment and use.
 
 ## The files
 
