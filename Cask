@@ -22,7 +22,7 @@
 (depends-on "ivy")
 (depends-on "js2-mode")
 (depends-on "js3-mode")
-(depends-on "magit")
+;(depends-on "magit")
 (depends-on "markdown-mode")
 (depends-on "markup-faces")
 (depends-on "multiple-cursors")
